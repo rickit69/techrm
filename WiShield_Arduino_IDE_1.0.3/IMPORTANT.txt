@@ -1,0 +1,1 @@
+This library is modified to work with the Arduino IDE version 1.0.3
