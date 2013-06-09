@@ -36,6 +36,7 @@ void setup() {
   RTC.begin(); // initialize the clock
   pinMode(10, OUTPUT);
   dht.begin(); // initialize the sensor
+  RTC.adjust(DateTime(__DATE__, __TIME__));
 
 }
 
